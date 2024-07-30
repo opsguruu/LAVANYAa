@@ -1,5 +1,6 @@
-FROM alpine:latest
+FROM httpd:latest
 
-COPY . /usr/share/alpine/html
+COPY . /usr/share/httpd/html
 
 EXPOSE 80
+
