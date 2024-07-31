@@ -1,5 +1,6 @@
-FROM nginx:stable-perl
+FROM httpd:latest
 
-COPY .  /usr/share/nginx/html
+COPY . /usr/share/httpd/html
 
 EXPOSE 80
+
